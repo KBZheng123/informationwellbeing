@@ -1,12 +1,3 @@
-<?php
-    include_once('function.php');
-    include_once('function_product.php');
-    getDB();
-    $product = get_products();
-    $count=count($product) - 1;
-
-?>
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="HTML/XHTML namespace.html">
 <head>
@@ -93,36 +84,6 @@ ddsmoothmenu.init({
         </div>
     </div> <!-- END of templatemo_menubar -->
     
-    <div id="templatemo_main">
-    	<div id="sidebar" class="float_l">
-        	<div class="sidebar_box"><span class="bottom"></span>
-            	<h3>Categories</h3>   
-                <div class="content"> 
-                	<ul class="sidebar_list">
-                    	<li class="first"><a href="#">Shoes</a></li>
-                        <li class="last"><a href="#">Boots</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="sidebar_box"><span class="bottom"></span>
-            	<h3>Bestsellers </h3>   
-                <div class="content"> 
-                    <?php
-                    for($i=0;$i<4;$i++){
-                    $t =mt_rand(0,$count);
-                    $value = $product[$t];
-                    ?> 
-                    <div class="bs_box">
-                        <a href="productdetail.php?action=show&productID=<?php echo $value['productID'] ?>""><img src="images/product/<?php echo $value['image'] ?>" alt="image" /></a>
-                        <h4><a href="productdetail.php?action=show&productID=<?php echo $value['productID'] ?>""><?php echo $value['productName'] ?></a></h4>
-                        <p class="price"><?php echo $value['price'] ?></p>
-                        <div class="cleaner"></div>
-                    </div>
-                    <?php }
-                    ?>
-                </div>            
-            </div>
-        </div>
         <div id="content" class="float_r">
         	<h1>About Us</h1>
         	<h2>Company Background</h2>

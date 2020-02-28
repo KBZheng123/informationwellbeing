@@ -1,4 +1,3 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="HTML/XHTML namespace.html">
 <head>
@@ -44,6 +43,13 @@ ddsmoothmenu.init({
 
 	<div id="templatemo_header">
     	<div id="site_title"><h1><a href="about.php#">Online Shoes Store</a></h1></div>
+        <div id="header_right">
+        	<p>
+	        <a href="about.php#">My Account</a> | <a href="about.php#">My Wishlist</a> | <a href="about.php#">My Cart</a> | <a href="about.php#">Checkout</a> | <a href="about.php#">Log In</a></p>
+            <p>
+            	Shopping Cart: <strong>0 item</strong> ( <a href="shoppingcart.php">Show Cart</a> )
+			</p>
+		</div>
         <div class="cleaner"></div>
     </div> <!-- END of templatemo_header -->
     
@@ -79,18 +85,6 @@ ddsmoothmenu.init({
     </div> <!-- END of templatemo_menubar -->
     
     <div id="templatemo_main">
-    	<div id="sidebar" class="float_l">
-        	<div class="sidebar_box"><span class="bottom"></span>
-            	<h3>Categories</h3>   
-                <div class="content"> 
-                	<ul class="sidebar_list">
-                    	<li class="first"><a href="#">Shoes</a></li>
-                        <li class="last"><a href="#">Boots</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="sidebar_box"><span class="bottom"></span>
-            	<h3>Bestsellers </h3>   
         <div id="content" class="float_r">
         	<h1>About Us</h1>
         	<h2>Company Background</h2>
@@ -101,9 +95,7 @@ ddsmoothmenu.init({
         <div class="cleaner"></div>
         <blockquote>Your most unhappy customer are your greatest source of earning. - Bill Gates
         </blockquote>
-        </div>            
-            </div>
-        </div>
+        </div> 
         <div class="cleaner"></div>
     </div> <!-- END of templatemo_main -->
     

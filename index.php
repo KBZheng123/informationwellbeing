@@ -43,7 +43,7 @@ ddsmoothmenu.init({
 <div id="templatemo_wrapper">
 
 	<div id="templatemo_header">
-    	<div id="site_title"><h1><a href="#">Online Toy Store</a></h1></div>
+    	<div id="site_title"><h1><a href="#">The anti-disinformation page</a></h1></div>
         <div id="header_right">
         	<p>
 	        <a href="showproduct.php">Show big dick energy</a> | <a href="showbill.php">Show bill</a> | <a href="showbilldetail.php">Show bill detail</a> | <a href="#">Profile</a> | <a href="#">Log out</a></p>

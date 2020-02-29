@@ -72,7 +72,6 @@ ddsmoothmenu.init({
     </div> <!-- END of templatemo_menubar -->
     
     <div id="templatemo_main">
-        <div id="content" class="float_r faqs">
         	<h1>Welcome to Information wellbeing</h1>
             <h5>The internet is a double-edged sword. On one hand, it provides us with a wealth of information in easy and low-cost manner. On the other, not all information is correct and there are many out there who intentioally give fraudulent information to deceive, to make you think in a certain way that benefits them. The purpose of this site is to provide you with some knowledge to avoid this. Here at Information Wellbeing, we dedicate ourselves into making sure that you can still get useful information from the internet without being misled by malevolent groups.</h5>
 

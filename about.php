@@ -42,36 +42,21 @@ ddsmoothmenu.init({
 <div id="templatemo_wrapper">
 
 	<div id="templatemo_header">
-    	<div id="site_title"><h1><a href="about.php#">Online Shoes Store</a></h1></div>
-        <div id="header_right">
-        	<p>
-	        <a href="about.php#">My Account</a> | <a href="about.php#">My Wishlist</a> | <a href="about.php#">My Cart</a> | <a href="about.php#">Checkout</a> | <a href="about.php#">Log In</a></p>
-            <p>
-            	Shopping Cart: <strong>0 item</strong> ( <a href="shoppingcart.php">Show Cart</a> )
-			</p>
-		</div>
-        <div class="cleaner"></div>
+    	<div id="site_title"><h1><a href="about.php#">The anti-disinformation website</a></h1></div>
     </div> <!-- END of templatemo_header -->
     
     <div id="templatemo_menubar">
     	<div id="top_nav" class="ddsmoothmenu">
             <ul>
-                <li><a href="index.php">Home</a></li>
-                <li style="z-index: 100;"><a href="products.php">Products</a>
+                <li><a href="index.php" class="selected">Home</a></li>
+                <li><a href="about.php">About</a></li>
+                <li style="z-index: 100;"><a href="products.php">Site content</a>
                     <ul style="display: none; top: 40px; visibility: visible;">
-                        <li><a href="about.php#submenu1">Shoes</a></li>
-                        <li><a href="about.php#submenu2">Boots</a></li>
+                        <li><a href="about.php#submenu1">The prevalence of online disinformation</a></li>
+                        <li><a href="about.php#submenu2">The dangers of online disinformation</a></li>
+			<li><a href="about.php#submenu3">How to avoid online disinformation</a></li>
                   </ul>
-                </li>
-                <li style="z-index: 99;"><a href="about.php" class="selected">About</a>
-                    <ul style="display: none; top: 40px; visibility: visible;">
-                        <li><a href="shippingpolicy.php">Shipping policy</a></li>
-                        <li><a href="refundpolicy.php">Refund policy</a></li>
-                        <li><a href="privacypolicy.php">Privacy policy</a></li>                  
-                    </ul>
-                </li>
                 <li><a href="faqs.php">FAQs</a></li>
-                <li><a href="checkout.php">Checkout</a></li>
                 <li><a href="contact.php">Contact Us</a></li>
             </ul>
             <br style="clear: left">

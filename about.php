@@ -50,7 +50,7 @@ ddsmoothmenu.init({
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php" class="selected">About</a></li>
-                <li style="z-index: 100;"><a href="products.php">Site content</a>
+                <li style="z-index: 1000;"><a href="products.php">Site content</a>
                     <ul style="display: none; top: 100px; visibility: visible;">
                         <li><a href="about.php#submenu1">The prevalence of online disinformation</a></li>
                         <li><a href="about.php#submenu2">The dangers of online disinformation</a></li>

@@ -52,9 +52,11 @@ ddsmoothmenu.init({
             <ul>
                 <li><a href="index.php" class="selected">Home</a></li>
                 <li><a href="about.php">About</a></li>
-		<li><a href="about.php">The prevalence of online disinformation</a></li>
-		<li><a href="about.php">The danger of online disinformation</a></li>
-		<li><a href="about.php">How to avoid online disinformation</a></li>
+		<li><a href="about.php">Site content</a>
+		        <li><a href="shippingpolicy.php">The prevalent of online disinformation</a></li>
+                        <li><a href="refundpolicy.php">The dangers of online disinformation</a></li>
+                        <li><a href="privacypolicy.php">How to avoid online disinformation</a></li>   
+		</li>
                 <li><a href="faqs.php">FAQs</a></li>
                 <li><a href="contact.php">Contact Us</a></li>
             </ul>

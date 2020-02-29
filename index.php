@@ -51,21 +51,11 @@ ddsmoothmenu.init({
     	<div id="top_nav" class="ddsmoothmenu">
             <ul>
                 <li><a href="index.php" class="selected">Home</a></li>
-                <li><a href="products.php">Products</a>
-                    <ul>
-                        <li><a href="#submenu1">Shoes</a></li>
-                        <li><a href="#submenu2">Boots</a></li>
-                  </ul>
-                </li>
-                <li><a href="about.php">About</a>
-                    <ul>
-                        <li><a href="shippingpolicy.php">Shipping policy</a></li>
-                        <li><a href="refundpolicy.php">Refund policy</a></li>
-                        <li><a href="privacypolicy.php">Privacy policy</a></li>   
-                  </ul>
-                </li>
+                <li><a href="about.php">About</a></li>
+		<li><a href="about.php">The prevalence of online disinformation</a></li>
+		<li><a href="about.php">The danger of online disinformation</a></li>
+		<li><a href="about.php">How to avoid online disinformation</a></li>
                 <li><a href="faqs.php">FAQs</a></li>
-                <li><a href="checkout.php">Checkout</a></li>
                 <li><a href="contact.php">Contact Us</a></li>
             </ul>
             <br style="clear: left" />
@@ -79,97 +69,30 @@ ddsmoothmenu.init({
     </div> <!-- END of templatemo_menubar -->
     
     <div id="templatemo_main">
-    	<div id="sidebar" class="float_l">
-        	<div class="sidebar_box"><span class="bottom"></span>
-            	<h3>Categories</h3>   
-                <div class="content"> 
-                	<ul class="sidebar_list">
-                    	<li class="first"><a href="#">Shoes</a></li>
-                        <li class="last"><a href="#">Boots</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="sidebar_box"><span class="bottom"></span>
-            	<h3>Bestsellers </h3>   
-                <div class="content"> 
-                	<?php
-                	for($i=0;$i<4;$i++){
-                	$t =mt_rand(0,$count);
-                	$value = $product[$t];
-                	?> 
-                	<div class="bs_box">
-                    	<a href="productdetail.php?action=show&productID=<?php echo $value['productID'] ?>""><img src="images/product/<?php echo $value['image'] ?>" alt="image" /></a>
-                        <h4><a href="productdetail.php?action=show&productID=<?php echo $value['productID'] ?>""><?php echo $value['productName'] ?></a></h4>
-                        <p class="price"><?php echo $value['price'] ?></p>
-                        <div class="cleaner"></div>
-                    </div>
-                	<?php }
-                	?>
-                </div>
-            </div>
-        </div>
-        <div id="content" class="float_r">
-        	<div id="slider-wrapper">
-                <div id="slider" class="nivoSlider">
-                    <img src="images/slider/02.jpg" alt="" />
-                    <a href="#"><img src="images/slider/01.jpg" alt="" title="This is an example of a caption" /></a>
-                    <img src="images/slider/03.jpg" alt="" />
-                    <img src="images/slider/04.jpg" alt="" title="#htmlcaption" />
-                </div>
-                <div id="htmlcaption" class="nivo-html-caption">
-                    <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
-                </div>
-            </div>
-            <script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
-            <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
-            <script type="text/javascript">
-            $(window).load(function() {
-                $('#slider').nivoSlider();
-            });
-            </script>
-        	<h1>New Products</h1>
-            <div id="content" class="float_r">
-            <?php
-                $loop = CEIL($count/3-1);
-                $ID = 0;
-                for($j=0; $j<$loop; $j++){
-                    for($i = 0; $i<3; $i++){
-                    $value = $product[$ID];
-                    if ($i == 2){
-                        ?>
-                        <div class="product_box no_margin_right">
-                            <h3><?php echo $value['productName'] ?></h3>
-                            <a href="productdetail.php?action=show&productID=<?php echo $value['productID'] ?>"><img src="images/product/<?php echo $value['image'] ?>" alt="Shoes 3"></a>
-                            <p><?php echo $value['description'] ?></p>
-                            <p class="product_price"><?php echo $value['price'] ?></p>
-                            <a href="shoppingcart.php" class="addtocart"></a>
-                            <a href="productdetail.php?action=show&productID=<?php echo $value['productID'] ?>" class="detail"></a>
-                        </div>  
-                        <?php 
-                        $ID++;
-                    }
-                    else{
-                        ?>
-                        <div class="product_box">
-                            <h3><?php echo $value['productName'] ?></h3>
-                            <a href="productdetail.php?action=show&productID=<?php echo $value['productID'] ?>"><img src="images/product/<?php echo $value['image'] ?>" alt="Shoes 1"></a>
-                            <p><?php echo $value['description'] ?></p>
-                            <p class="product_price"><?php echo $value['price'] ?></p>
-                            <a href="shoppingcart.php" class="addtocart"></a>
-                            <a href="productdetail.php?action=show&productID=<?php echo $value['productID'] ?>" class="detail"></a>
-                            <div class="cleaner"></div>
-                        </div>
-                        <?php  
-                        $ID++;     
-                    }
-                    ?>
-                    
-                    <?php
-                    }
-                }
-
-            ?>
+        <div id="content" class="float_r faqs">
+        	<h1>FAQs</h1>
+            <h5>How do I  know if my order has been placed?</h5>
+            <p>You will  receive an email confirming that your order has been received. If you do not  receive an email confirmation, please login to see your order status.  Validate <a href="http://validator.w3.org/check?uri=referer" rel="nofollow">XHTML</a> &amp; <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow">CSS</a>.</p>
             
+          <h5>When will my order be shipped?</h5>
+            <p>Please read our shipping policy. Click <a href="faqs.php#">here</a></p>
+            
+            <h5>What payment methods do you accept?</h5>
+            <p>PayPal and 2Checkout (2CO)</p>
+            
+            <h5>Can I return or exchange my purchase if I don't like it?</h5>
+            <p>Please read our exchange policy. Click <a href="faqs.php#">here</a></p>
+            
+            <h5>How do I know if online ordering is secured?</h5>
+            <p>
+            Protecting your information is a  top priority for this site. We use Secure Sockets Layer (SSL) to encrypt your  credit card number, name and address, so only this site is able to decode  your information. SSL is the industry standard method for computers to  communicate securely without risk of data interception, manipulation or  recipient impersonation. To be sure your connection is secure; when you are in  the Shopping Cart, look at the lower corner of your browser window. If you see  an unbroken key or closed lock, the SSL is active and your information is  secure. Since most of the customers are still uncomfortable with providing your  credit card online, we use PayPal and 2CheckOut services and they do not need to  give out credit card information.</p>
+          <p>
+          This site is registerd with HackerGuardian. HackerGuardian certification for  a hacker free website and a Credit Card TrustLogo confirming your  trustworthiness to take credit card details online.</p>
+
+			
+            <h5>What is your privacy policy?</h5>
+            <p>This website respects your privacy and ensure that  you understand what information we need to complete your order, and what  information you can choose to share with us and with our marketing partners.  For complete information on our privacy policy, please visit our <a href="faqs.php#">Privacy Policy</a>  page.</p>
+        </div> 
             <div class="cleaner"></div>
             
         </div> 

@@ -2,7 +2,7 @@
 <html xmlns="HTML/XHTML namespace.html">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Shoes Store from templatemo</title>
+<title>About us</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="css/templatemo_style.css" rel="stylesheet" type="text/css" />

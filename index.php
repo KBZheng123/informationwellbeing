@@ -3,7 +3,7 @@
 <html xmlns="HTML/XHTML namespace.html">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Shoes Store from templatemo</title>
+<title>The anti-disinformation website</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="css/templatemo_style.css" rel="stylesheet" type="text/css" />
@@ -72,23 +72,20 @@ ddsmoothmenu.init({
     </div> <!-- END of templatemo_menubar -->
     
     <div id="templatemo_main">
-        	<h1>Welcome to Information wellbeing</h1>
-            <h5>The internet is a double-edged sword. On one hand, it provides us with a wealth of information in easy and low-cost manner. On the other, not all information is correct and there are many out there who intentioally give fraudulent information to deceive, to make you think in a certain way that benefits them. The purpose of this site is to provide you with some knowledge to avoid this. Here at Information Wellbeing, we dedicate ourselves into making sure that you can still get useful information from the internet without being misled by malevolent groups.</h5>
-
+	 <div id="content" class="float_r faqs">
+       		<h1>Welcome to Information wellbeing</h1>
+            		<h5>The internet is a double-edged sword. On one hand, it provides us with a wealth of information in easy and low-cost manner. On the other, not all information is correct and there are many out there who intentioally give fraudulent information to deceive, to make you think in a certain way that benefits them. The purpose of this site is to provide you with some knowledge to avoid this. Here at Information Wellbeing, we dedicate ourselves into making sure that you can still get useful information from the internet without being misled by malevolent groups.</h5>
             <div class="cleaner"></div>
-            
-        </div> 
-            
-                 	
-
+        </div>                  	
     </div> <!-- END of templatemo_main -->
     
     <div id="templatemo_footer">
-    	<p><a href="#">Home</a> | <a href="#">Products</a> | <a href="#">About</a> | <a href="#">FAQs</a> | <a href="#">Checkout</a> | <a href="#">Contact Us</a> |
+    	<p><a href="faqs.php#">Home</a> | <a href="faqs.php#">Products</a> | <a href="faqs.php#">About</a> | <a href="faqs.php#">FAQs</a> | <a href="faqs.php#">Checkout</a> | <a href="faqs.php#">Contact Us</a>
 		</p>
 
-    	Copyright © 2072 <a href="#">Your Company Name</a> <!-- Credit: www.templatemo.com -->
-    </div> <!-- END of templatemo_footer -->
+		Copyright © 2072 <a href="faqs.php#">Your Company Name</a> <!-- Credit: www.templatemo.com -->
+    	
+    </div>
     
 </div> <!-- END of templatemo_wrapper -->
 </div> <!-- END of templatemo_body_wrapper -->

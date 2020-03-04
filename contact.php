@@ -66,26 +66,9 @@ ddsmoothmenu.init({
     </div> <!-- END of templatemo_menubar -->
     
     <div id="templatemo_main">
-        <div class="content_half float_r">
-            <h5>Primary Office</h5>
-            660-110 Quisque diam at ligula, <br>
-            Etiam dictum lectus quis, 11220<br>
-            Sed mattis mi at sapien<br><br>
-                        
-            Phone: 010-010-6600<br>
-            Email: <a href="mailto:info@yourcompany.com">info@yourcompany.com</a><br>
-            
-            <div class="cleaner h40"></div>
-            
-            <h5>Secondary Office</h5>
-            120-360 Cras ac nunc laoreet,<br>
-            Nulla vitae leo ac dui, 10680<br>
-            Cras id sem nulla<br><br>
-            
-            Phone: 030-030-0220<br>
-            Email: <a href="mailto:contact@yourcompany.com">contact@yourcompany.com</a><br>
-            <br>
-            Validate <a href="http://validator.w3.org/check?uri=referer" rel="nofollow">XHTML</a> &amp; <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow">CSS</a>
+        <div id="content" class="float_r faqs">
+            <h5>Email: KhangTB260700@gmail.com</h5>
+            <h5>For any feedback, please refer to this link:<a href="about.php#">Google survey</a>
         </div>
         <div class="cleaner"></div>
     </div> <!-- END of templatemo_main -->

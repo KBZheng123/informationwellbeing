@@ -71,12 +71,12 @@ ddsmoothmenu.init({
     
     <div id="templatemo_main">
         <div id="content" class="float_r">
-        	<h1>About Us</h1>
-        	<h2>Company Background</h2>
-        <p>ShoesStore is one of the first shoes-selling web sites on the internet. This is the reason why we have the name ShoesStore. We got the domain name before anyone did. That name alone is bringing billions of dollar every year because it is relevant to the Google search algorithm. We know our site looks like it has not been updated since 2007, but why should we waste money updating our site when we are already rolling in cash from the name alone?</p>
+        	<h1>About Me</h1>
+        	<h2>Author Background</h2>
+        <p>The author of this site is Tran Binh Khang, student of Greenwich University</p>
         <div class="cleaner h20"></div>
-        <h3>Management Team</h3>
-		<p>Our management team is world-class. We are very proud to be led by such a talented group of individual.</p>
+        <h3>Reason for the site</h3>
+		<p>As a frequent internet user, the author has come across online disinformation multiple times. He has seen people being misled into supporting policies that do not have their interests in mind. The author wishes for this phenomenon to stop and this is why he makes this site.</p>
         <div class="cleaner"></div>
         <blockquote>Your most unhappy customer are your greatest source of earning. - Bill Gates
         </blockquote>

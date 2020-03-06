@@ -77,9 +77,6 @@ ddsmoothmenu.init({
         <div class="cleaner h20"></div>
         <h3>Reason for the site</h3>
 		<p>As a frequent internet user, the author has come across online disinformation multiple times. He has seen people being misled into supporting policies that do not have their interests in mind. The author wishes for this phenomenon to stop and this is why he makes this site.</p>
-        <div class="cleaner"></div>
-        <blockquote>Your most unhappy customer are your greatest source of earning. - Bill Gates
-        </blockquote>
         </div> 
         <div class="cleaner"></div>
     </div> <!-- END of templatemo_main -->

@@ -54,9 +54,9 @@ ddsmoothmenu.init({
                 <li><a href="about.php">About</a></li>
                 <li style="z-index: 100;"><a href="products.php">Site content</a>
                     <ul style="display: none; top: 40px; visibility: visible;">
-                        <li><a href="about.php#submenu1">The prevalence of online disinformation</a></li>
-                        <li><a href="about.php#submenu2">The dangers of online disinformation</a></li>
-			<li><a href="about.php#submenu3">How to avoid online disinformation</a></li>
+                        <li><a href="prevalence.php">The prevalence of online disinformation</a></li>
+                        <li><a href="dangers.php">The dangers of online disinformation</a></li>
+			<li><a href="avoid.php">How to avoid online disinformation</a></li>
                   </ul>
                 <li><a href="faqs.php">FAQs</a></li>
                 <li><a href="contact.php">Contact Us</a></li>

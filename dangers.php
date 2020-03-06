@@ -52,7 +52,7 @@ ddsmoothmenu.init({
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About</a></li>
-                <li style="z-index: 100;"><a href="products.php" class="selected">Site content</a>
+                <li style="z-index: 100;"><a href="#" class="selected">Site content</a>
                     <ul style="display: none; top: 40px; visibility: visible;">
                         <li><a href="prevalence.php">The prevalence of online disinformation</a></li>
                         <li><a href="dangers.php">The dangers of online disinformation</a></li>

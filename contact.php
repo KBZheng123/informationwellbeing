@@ -68,7 +68,7 @@ ddsmoothmenu.init({
     <div id="templatemo_main">
         <div id="content" class="float_r faqs">
             <h5>Email: KhangTB260700@gmail.com</h5>
-            <h5>For any feedback, please refer to this link:<a href="about.php#">Google survey</a>
+            <h5>For any feedback, please refer to this link:<a href="https://docs.google.com/forms/d/e/1FAIpQLSfrMuTewGitFIdJvGoFJmEiQBUB54Pa7yEW9_XQlJJH4HJ10Q/viewform?vc=0&c=0&w=1&usp=mail_form_link">Google survey</a>
         </div>
         <div class="cleaner"></div>
     </div> <!-- END of templatemo_main -->

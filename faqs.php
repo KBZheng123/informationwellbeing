@@ -2,7 +2,7 @@
 <html xmlns="HTML/XHTML namespace.html">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>About us</title>
+<title>Frequently Asked Questions</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="css/templatemo_style.css" rel="stylesheet" type="text/css" />
@@ -46,7 +46,7 @@ ddsmoothmenu.init({
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php" class="selected">About</a></li>
-                <li style="z-index: 1000;"><a href="products.php">Site content</a>
+                <li style="z-index: 1000;"><a href="#">Site content</a>
                     <ul style="display: none; top: 100px; visibility: visible;">
                         <li><a href="prevalence.php">The prevalence of online disinformation</a></li>
                         <li><a href="dangers.php">The dangers of online disinformation</a></li>

@@ -2,7 +2,7 @@
 <html xmlns="HTML/XHTML namespace.html">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>About us</title>
+<title>Contact us</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="css/templatemo_style.css" rel="stylesheet" type="text/css" />

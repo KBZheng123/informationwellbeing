@@ -83,7 +83,7 @@ ddsmoothmenu.init({
 		 <p><a href="prevalence.php#">The prevalence of online disinformation</a></p>
 		 <p><a href="dangers.php#">The dangers of online disinformation</a></p>
 		 <p><a href="avoid.php#">How to avoid online disinformation</a></p>
-		 <p><a href="resources.php#">Resources avoid online disinformation</a></p>
+		 <p><a href="resources.php#">Resources to help avoid online disinformation</a></p>
         </div>
 	    <div class="cleaner"></div>
     </div> <!-- END of templatemo_main -->

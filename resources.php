@@ -73,7 +73,7 @@ ddsmoothmenu.init({
     
     <div id="templatemo_main">
      <div id="content" class="float_r faqs">
-            <h1>The following sites may help you in avoiding disinformation</h1>
+            <h1>Useful websites</h1>
                     <h5>
                         <li><a href="https://www.rand.org/research/projects/truth-decay/fighting-disinformation/search.html">rand.org</a> provides you with access to many apps that can protect against disinformation</li>
                         <li><a href="https://efraudprevention.net/home/fakenews.html">efraudprevention</a> has a section that contains all information that has been proven as fake by other fact checking websites</li>
